@@ -1,0 +1,1 @@
+ terraform destroy --var-file="Tfvars/policy.tfvars" --var-file="Tfvars/dashboard.tfvars" --var-file="Tfvars/workflow.tfvars" --auto-approve
